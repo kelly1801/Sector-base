@@ -2,7 +2,13 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'sector': "url('../images/img-2.png')"
+        
+       }
+
+    },
   },
   variants: {
     extend: {},
