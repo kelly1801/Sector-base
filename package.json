@@ -1,0 +1,21 @@
+{
+  "name": "sector-base",
+  "version": "1.0.0",
+  "description": "\"E-commerce front-end project\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "npx tailwindcss -i ./src/styles.css -o ./css/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "kellyc"
+  },
+  "author": "Kelly Chara",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.17"
+  }
+}
