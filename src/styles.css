@@ -31,3 +31,69 @@
         font-family: "Impact";
     }
 }
+
+@layer components{
+ .principal-container{
+     @apply
+
+    container
+    p-10 
+    flex
+     ;
+ },
+
+.sector-container{
+
+    @apply
+
+    flex-1 
+    m-10 
+    text-justify
+    ml-44 
+    w-72
+    h-52
+     ;
+ },
+
+.index{
+
+    @apply
+
+    text-mm
+    font-bold 
+    -ml-16 
+    opacity-40 
+    inline
+    ;
+},
+.h3{
+    @apply
+    font-semibold 
+    text-6xl 
+    -mt-20 
+    mb-10
+;
+},
+
+.info{
+ @apply
+ text-sm 
+ mb-3 
+ font-thin 
+ text-left
+;
+},
+
+.image{
+
+    @apply
+    w-wst
+    h-hst
+
+    ;
+}
+}
+
+
+
+
