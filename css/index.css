@@ -632,6 +632,10 @@ video {
   font-family: "Impact";
 }
 
+.outline{
+  text-shadow: -2px 0 #FFF, 0 2px #FFF, 2px 0 #FFF, 0 -2px #FFF;
+}
+
 .container {
   width: 100%;
 }
